@@ -1,0 +1,51 @@
+#title {
+  text-align: center;
+}
+.boxes {
+  display:flex;
+  justify-content: space-around;
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+.box {
+  border: solid 1px plum;
+  padding: 10px;
+  width: 200px;
+  /* height: 400px; */
+}
+
+.first .left {
+  background-color: rgba(231, 231, 241, 0.92);
+}
+.third .right {
+  background-color: rgba(231, 231, 241, 0.92);
+}
+.move {
+  background-color: plum;
+  border: solid 1px gray;
+  padding: 15px 94px;
+}
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.char {
+  width: 200px;
+  height: 45px;
+  background-color: rgba(231, 231, 241, 0.92);
+  border: solid 1px white;
+
+  /* padding: 15px 94px; */
+}
+/* background-color: plum; turns this color when clicked */
+
+/* .second {
+  border: solid 1px black;
+}
+.third{
+  border: solid 1px black;
+} */
+
+
