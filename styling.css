@@ -36,10 +36,14 @@
   height: 45px;
   background-color: rgba(231, 231, 241, 0.92);
   border: solid 1px white;
+ }
 
-  /* padding: 15px 94px; */
+.plum {
+  background-color: plum;
+  /* width: 200px;
+  height: 45px;
+  border: solid 1px white; */
 }
-/* background-color: plum; turns this color when clicked */
 
 /* .second {
   border: solid 1px black;
