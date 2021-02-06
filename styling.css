@@ -8,11 +8,10 @@
   /* margin: 10px; */
 }
 
-.box {
+.boxes > div {
   border: solid 1px plum;
   padding: 10px;
   width: 200px;
-  /* height: 400px; */
 }
 
 .first .left {
@@ -26,11 +25,11 @@
   border: solid 1px gray;
   padding: 15px 94px;
 }
-#characters {
+/* #characters {
   display: flex;
   flex-wrap: wrap;
 
-}
+} */
 .char {
   width: 200px;
   height: 45px;
@@ -38,11 +37,8 @@
   border: solid 1px white;
  }
 
-.plum {
+.selected {
   background-color: plum;
-  /* width: 200px;
-  height: 45px;
-  border: solid 1px white; */
 }
 
 /* .second {
